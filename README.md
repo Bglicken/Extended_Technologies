@@ -16,15 +16,8 @@
 **State Of The Mod** 
 This mod is currently in early development and will integrate the three following mods, which will no longer be updated after their integration into this mod. All new features to any technology trees will now be found here. Following the mod integrations and the addition of the artillery and armor trees, other than bugfix updates, content updates will only follow the release of DLC's. 
 
-**Previous Technology Mods**
-
--1945 Industry & Electronics Tech 
-
--1945 Infantry & Support Tech
-
--1944 Navy & Air Tech 
-
 **Bug Reporting, Modpacks, and Suggestions/Collaboration**
+
 -If you discover a bug or issue with the mod, or you would like to make a suggestion, feel free to reach out to me on Steam or Discord and I will attempt to respond promptly and address your issue/suggestion. []If you wish to use this mod in a modpack or anything like that, fell free to but please include a link back to this mod page. 
 
 -If you wish to translate this mod into another language, please contact me and I may even be willing to integrate the translation into this mod (and give you credit for the translation of course) if you are willing to update the translation to include any new content at least once a month.
