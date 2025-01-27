@@ -16,7 +16,7 @@ technologies = {
 	electronic_mechanical_engineering = {
 
 		# small boost to research speed
-		research_speed_factor = 0.03
+		research_speed_factor = 0.04
 		
 		path = {
 			leads_to_tech = radio 
@@ -232,7 +232,7 @@ technologies = {
 		
 		folder = {
 			name = electronics_folder
-			position = { x = @radio y = 12 }
+			position = { x = @radio y = 14 }
 		}
 		
 		enable_equipment_modules = { 
@@ -572,7 +572,7 @@ technologies = {
 	mechanical_computing = {
 
 		# small boost to research speed
-		research_speed_factor = 0.04
+		research_speed_factor = 0.05
 		
 		path = {
 			leads_to_tech = computing_machine 
@@ -587,7 +587,7 @@ technologies = {
 			bomb_sights_1
 		}
 		
-		research_cost = 2.5
+		research_cost = 2
 		
 		folder = {
 			name = electronics_folder
@@ -609,7 +609,7 @@ technologies = {
 	computing_machine = {
 
 		# small boost to research speed
-		research_speed_factor = 0.05
+		research_speed_factor = 0.06
 		
 		path = {
 			leads_to_tech = improved_computing_machine 
@@ -627,7 +627,7 @@ technologies = {
 			leads_to_tech = improved_fire_control_system
 			research_cost_coeff = 1
 		}
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1938
 		
 		folder = {
@@ -661,7 +661,7 @@ technologies = {
 	improved_computing_machine = {
 
 		# small boost to research speed
-		research_speed_factor = 0.08
+		research_speed_factor = 0.07
 		enable_equipment_modules = {
 			stabilizer
 			bomb_sights_2
@@ -684,7 +684,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1940
 		
 		folder = {
@@ -742,7 +742,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1942
 		
 		folder = {
@@ -776,7 +776,7 @@ technologies = {
 	modern_computing_machine = {
 
 		# small boost to research speed
-		research_speed_factor = 0.1
+		research_speed_factor = 0.09
 		
 		path = {
 			leads_to_tech = modern_encryption 
@@ -791,7 +791,7 @@ technologies = {
 			bomb_sights_3
 		}
 		
-		research_cost = 2.75
+		research_cost = 2
 		start_year = 1944
 		
 		folder = {

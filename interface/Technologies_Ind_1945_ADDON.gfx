@@ -8,6 +8,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_modern_radio_medium"
+		texturefile = "gfx/interface/technologies/modern_radio.png"
+	}
+
+	SpriteType = {
 		name = "GFX_improved_modern_centimetric_radar_medium"
 		texturefile = "gfx/interface/technologies/improved_modern_centimetric_radar.png"
 	}
