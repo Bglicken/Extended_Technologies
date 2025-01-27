@@ -489,6 +489,11 @@ technologies = {
 		special_project_specialization = { specialization_air specialization_nuclear }
 		
 		static_anti_air_hit_chance_factor = 0.2
+
+		path = {
+			leads_to_tech = modern_centimetric_radar 
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 1.25
 		start_year = 1942
@@ -742,7 +747,7 @@ technologies = {
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 2 y = 18 }
+			position = { x = @computing y = 18 }
 		}
 		
 		ai_will_do = {
@@ -2017,7 +2022,7 @@ technologies = {
 		
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 18 }
+			position = { x = @radar y = 18 }
 		}
 		
 		ai_will_do = {
@@ -2062,7 +2067,7 @@ technologies = {
 		
 		folder = {
 			name = electronics_folder
-			position = { x = 0 y = 16 }
+			position = { x = @firecontrol y = 16 }
 		}
 		
 		ai_will_do = {
@@ -2121,6 +2126,56 @@ technologies = {
 		categories = {
 			electronics
 			decryption_tech
+		}
+	}
+
+	modern_centimetric_radar = {
+
+		#radar boost in air/sea combat depends on radar level
+		enable_building = {
+			building = radar_station
+			level = 7
+		}
+		coordination_bonus = 0.025
+
+		static_anti_air_hit_chance_factor = 0.1
+		
+		path = {
+			leads_to_tech = improved_modern_centimetric_radar 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		start_year = 1943
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+				factor = 4
+			}
+			modifier = {
+				date < "1943.1.1"
+				factor = 0.5
+			}
+		}
+		
+		categories = {
+			electronics
+			radar_tech
+		}
+		
+		enable_equipment_modules = { 
+			air_ground_radar_3
+			radio_navigation_3
 		}
 	}
 	
