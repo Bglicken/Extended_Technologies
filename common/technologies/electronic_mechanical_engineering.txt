@@ -174,10 +174,59 @@ technologies = {
 	advanced_radio = {
 
 		# units with radios can more efficiently join combats when there is room
-		land_reinforce_rate = 0.01
+		land_reinforce_rate = 0.02
 		coordination_bonus = 0.02
 		
 		start_year = 1941
+		
+		research_cost = 2
+		
+		folder = {
+			name = electronics_folder
+			position = { x = @radio y = 12 }
+		}
+		
+		enable_equipment_modules = { 
+			tank_radio_3
+			lc_radio_3 #Module for Land Cruiser
+		}
+
+		path = {
+			leads_to_tech = modern_radio 
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 6
+				has_war = yes
+			}
+			modifier = {
+				is_major = yes
+				factor = 2
+			}
+			modifier = {
+				factor = 5
+				date > "1939.8.1"
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+
+		special_project_specialization = { specialization_air }
+	}
+
+	modern_radio = {
+
+		# units with radios can more efficiently join combats when there is room
+		land_reinforce_rate = 0.02
+		coordination_bonus = 0.02
+		
+		start_year = 1944
 		
 		research_cost = 2
 		
