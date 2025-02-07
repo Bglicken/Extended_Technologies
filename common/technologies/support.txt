@@ -1755,7 +1755,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = railway_gun_2
+			leads_to_tech = railway_gun2
 			research_cost_coeff = 1
 		}
 
@@ -1802,7 +1802,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = railway_gun_3
+			leads_to_tech = railway_gun3
 			research_cost_coeff = 1
 		}
 
