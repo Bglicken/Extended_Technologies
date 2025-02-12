@@ -1,0 +1,326 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+
+	air_ground_radar_3 = {
+		abbreviation = "agr3"
+		category = plane_special_module_air_ground_radar
+		gui_category = plane_special_module_electronics
+		sfx = sfx_ui_sd_module_turret
+		parent = air_ground_radar_2
+
+		add_stats = {
+				build_cost_ic = 5
+				weight = 1
+		}
+
+		mission_type_stats = {
+			limit = {
+				naval_bomber
+				port_strike
+				strategic_bomber
+				naval_patrol
+			}
+			add_stats = {
+				air_bombing = 7
+				night_penalty = -0.45
+				surface_detection = 25
+				sub_detection = 12.5
+			}
+		}
+		xp_cost = 1
+	}
+	
+	air_air_radar_3 = {
+		abbreviation = "aar3"
+		category = plane_special_module_air_air_radar
+		gui_category = plane_special_module_electronics
+		sfx = sfx_ui_sd_module_turret
+		parent = air_air_radar_2
+
+		add_stats = {
+			build_cost_ic = 8
+			weight = 1
+		}
+		mission_type_stats = {
+			limit = {
+				interception
+			}
+			add_stats = {
+				night_penalty = -0.5
+			}
+		}
+		xp_cost = 1
+	}
+	
+	radio_navigation_3 = {
+		abbreviation = "rn3"
+		category = plane_special_module_radio_navigation
+		gui_category = plane_special_module_electronics
+		sfx = sfx_ui_sd_module_turret
+		parent = radio_navigation_2
+
+		add_stats = {
+			air_bombing = 7
+			build_cost_ic = 2
+			weight = 1
+			night_penalty = -0.25
+		}
+		xp_cost = 1
+	}
+	
+	bomb_sights_3 = {
+		abbreviation = "bs3"
+		category = plane_special_module_bomb_sights
+		gui_category = plane_special_module_electronics
+		sfx = sfx_ui_sd_module_turret
+		parent = bomb_sights_2
+
+		add_stats = {
+			air_bombing = 7
+			build_cost_ic = 2.5
+			weight = 1
+		}
+		xp_cost = 1
+	}
+	
+	drop_tanks_2 = {
+		abbreviation = "dpt2"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		parent = drop_tanks
+
+		add_stats = {
+			build_cost_ic = 2.75
+			air_range = 450
+			weight = 3
+		}
+		xp_cost = 1
+	}
+	
+	drop_tanks_3 = {
+		abbreviation = "dpt3"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		parent = drop_tanks_2
+
+		add_stats = {
+			build_cost_ic = 3.5
+			air_range = 600
+			weight = 4
+		}
+		xp_cost = 1
+	}
+	
+	fuel_tanks_small_2 = {
+		abbreviation = "fts2"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		parent = fuel_tanks_small
+
+		add_stats = {
+			air_defence = -2
+			build_cost_ic = 1.5
+			weight = 1
+		}
+		multiply_stats = {
+			air_range = 0.75
+		}
+		xp_cost = 1
+		dismantle_cost_ic = 0.75
+	}
+	
+	fuel_tanks_small_3 = {
+		abbreviation = "fts3"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		parent = fuel_tanks_small_2
+
+		add_stats = {
+			air_defence = -2
+			build_cost_ic = 2
+			weight = 1
+		}
+		multiply_stats = {
+			air_range = 1
+		}
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+	
+	fuel_tanks_medium_2 = {
+		abbreviation = "ftm2"
+		category = plane_special_module_medium
+		sfx = sfx_ui_sd_module_turret
+		parent = fuel_tanks_medium
+
+		add_stats = {
+			air_defence = -6
+			build_cost_ic = 3
+			weight = 4
+		}
+		multiply_stats = {
+			air_range = 0.75
+		}
+		xp_cost = 1
+		dismantle_cost_ic = 1.25
+	}
+	
+	fuel_tanks_medium_3 = {
+		abbreviation = "ftm3"
+		category = plane_special_module_medium
+		sfx = sfx_ui_sd_module_turret
+		parent = fuel_tanks_medium_2
+
+		add_stats = {
+			air_defence = -6
+			build_cost_ic = 4
+			weight = 4
+		}
+		multiply_stats = {
+			air_range = 1
+		}
+		xp_cost = 1
+		dismantle_cost_ic = 1.5
+	}
+	
+	fuel_tanks_large_2 = {
+		abbreviation = "ftl2"
+		category = plane_special_module_large
+		sfx = sfx_ui_sd_module_turret
+		parent = fuel_tanks_large
+
+		add_stats = {
+			air_defence = -8
+			build_cost_ic = 6
+			weight = 6
+		}
+		multiply_stats = {
+			air_range = 0.75
+		}
+		xp_cost = 1
+		dismantle_cost_ic = 1.75
+	}
+	
+	fuel_tanks_large_3 = {
+		abbreviation = "ftl3"
+		category = plane_special_module_large
+		sfx = sfx_ui_sd_module_turret
+		parent = fuel_tanks_large_2
+
+		add_stats = {
+			air_defence = -8
+			build_cost_ic = 8
+			weight = 6
+		}
+		multiply_stats = {
+			air_range = 1
+		}
+		xp_cost = 1
+		dismantle_cost_ic = 2
+	}
+	
+	improved_heavy_mg_2x = {
+		abbreviation = "ihmg2"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = fighter
+
+		add_stats = {
+			air_attack = 9
+			build_cost_ic = 2
+			weight = 1
+		}
+		xp_cost = 1
+		allow_mission_type = {
+			air_superiority
+			interception
+		}
+	}
+
+	improved_heavy_mg_4x = {
+		abbreviation = "ihmg4"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = fighter
+
+		add_stats = {
+			air_attack = 18
+			build_cost_ic = 4
+			weight = 2
+		}
+		xp_cost = 2
+		allow_mission_type = {
+			air_superiority
+			interception
+		}
+		mission_type_stats = {
+			limit = {
+				attack_logistics
+			}
+			add_stats = {
+				air_ground_attack = 1
+			}
+		}
+		can_convert_from = {
+			module = improved_heavy_mg_2x
+			convert_cost_ic = 3
+		}
+	}
+	
+	improved_hmg_defense_turret = {
+		abbreviation = "ihmgt"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			air_attack = 7
+			air_agility = -2.5
+			build_cost_ic = 2
+			weight = 3
+		}
+		dismantle_cost_ic = 1
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 5
+		}
+		can_convert_from = {
+			module = lmg_defense_turret
+			convert_cost_ic = 4
+		}
+		can_convert_from = {
+			module = cannon_defense_turret
+			convert_cost_ic = 3
+		}
+		xp_cost = 1
+	}
+
+	improved_hmg_defense_turret_2x = {
+		abbreviation = "ihmgt2"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			air_attack = 12
+			air_agility = -6
+			build_cost_ic = 6
+			weight = 6
+		}
+		dismantle_cost_ic = 2
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 6
+		}
+		can_convert_from = {
+			module = lmg_defense_turret_2x
+			convert_cost_ic = 5
+		}
+		can_convert_from = {
+			module = cannon_defense_turret_2x
+			convert_cost_ic = 4
+		}
+		xp_cost = 1
+	}
+
+}
