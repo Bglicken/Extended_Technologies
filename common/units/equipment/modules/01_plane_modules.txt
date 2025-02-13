@@ -93,10 +93,10 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1.1
-			multiply_stats = {
-				air_range = 0.35
-			}
 			weight = 3
+		}
+		multiply_stats = {
+			air_range = 0.35
 		}
 		xp_cost = 1
 	}
@@ -109,10 +109,10 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1.2
-			multiply_stats = {
-				air_range = 0.45
-			}
 			weight = 3
+		}
+		multiply_stats = {
+			air_range = 0.45
 		}
 		xp_cost = 1
 	}
