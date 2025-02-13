@@ -527,7 +527,7 @@ technologies = {
 			custom_effect_tooltip = sonar_advice_tt
 		}
 		path = {
-			leads_to_tech = advanced_sonar
+			leads_to_tech = modern_sonar
 			research_cost_coeff = 1
 		}
 		research_cost = 1
@@ -569,10 +569,6 @@ technologies = {
 		}
 		on_research_complete = {
 			custom_effect_tooltip = sonar_advice_tt
-		}
-		path = {
-			leads_to_tech = advanced_sonar
-			research_cost_coeff = 1
 		}
 		research_cost = 1
 

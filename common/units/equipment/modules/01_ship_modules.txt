@@ -115,7 +115,7 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 12
 			sub_detection = 4
-			build_cost_ic = 185
+			build_cost_ic = 180
 		}
 		can_convert_from = {
 			module_category = ship_airplane_launcher_2
@@ -138,7 +138,7 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 14
 			sub_detection = 4.5
-			build_cost_ic = 200
+			build_cost_ic = 190
 		}
 		can_convert_from = {
 			module_category = ship_airplane_launcher_3
@@ -165,7 +165,7 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 16
 			sub_detection = 5
-			build_cost_ic = 215
+			build_cost_ic = 200
 		}
 		can_convert_from = {
 			module_category = ship_airplane_launcher_4
@@ -231,8 +231,8 @@ equipment_modules = {
 		gfx = ship_armor_thick_4
 		parent = ship_armor_bb_3
 		multiply_stats = {
-			build_cost_ic = 0.185
-			naval_speed = -0.325
+			build_cost_ic = 0.2
+			naval_speed = -0.125
 			max_strength = 0.175
 		}
 		build_cost_resources = {
@@ -240,7 +240,7 @@ equipment_modules = {
 			chromium = 1
 		}
 		add_stats = {
-			armor_value = 45.5
+			armor_value = 45
 			naval_torpedo_enemy_critical_chance_factor = -0.25
 			naval_torpedo_damage_reduction_factor = 0.25
 		}
@@ -254,8 +254,8 @@ equipment_modules = {
 		gfx = ship_armor_4
 		parent = ship_armor_bc_3
 		multiply_stats = {
-			build_cost_ic = 0.135
-			naval_speed = -0.275
+			build_cost_ic = 0.15
+			naval_speed = -0.125
 			max_strength = 0.175
 		}
 		build_cost_resources = {
@@ -264,7 +264,7 @@ equipment_modules = {
 		}
 		add_stats = {
 			armor_value = 40
-			naval_torpedo_enemy_critical_chance_factor = -0.2
+			naval_torpedo_enemy_critical_chance_factor = -0.25
 			naval_torpedo_damage_reduction_factor = 0.25
 		}
 		dismantle_cost_ic = 6700
@@ -278,7 +278,7 @@ equipment_modules = {
 		parent = ship_armor_cruiser_4
 		multiply_stats = {
 			build_cost_ic = 0.275
-			naval_speed = -0.135
+			naval_speed = -0.15
 			max_strength = 0.175
 		}
 		dismantle_cost_ic = 4500
