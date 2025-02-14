@@ -1,0 +1,39 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "No Step Back" 
+	}
+
+	tank_radio_4 = {
+		abbreviation = "rad4"
+		category = tank_radio_module
+		parent = tank_radio_3
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			build_cost_ic = 4
+		}
+		xp_cost = 1
+		multiply_stats = {
+			defense = 0.7
+			breakthrough = 0.5
+		}
+	}
+	
+	armor_skirts_2 = {
+		abbreviation = "skirt2"
+		category = tank_special_module
+		parent = armor_skirts
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			armor_value = 3
+			breakthrough = 4
+			build_cost_ic = 0.75
+		}
+		xp_cost = 1
+		multiply_stats = {
+			
+		}
+	}
+	
+}

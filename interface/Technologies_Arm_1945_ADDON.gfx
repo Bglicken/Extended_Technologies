@@ -1,0 +1,22 @@
+spriteTypes = {
+
+	##Tank Modules
+	spriteType = {
+		name = "GFX_EMI_tank_radio_4"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_radio_4.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_armor_skirts"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_add_on_armor.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_armor_skirts_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_add_on_armor_2.png"
+		legacy_lazy_load = no
+	}
+
+}
