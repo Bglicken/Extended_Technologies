@@ -486,6 +486,10 @@ technologies = {
 
 		research_cost = 1
 
+		enable_equipments = {
+			artillery_equipment_4
+		}
+
 		start_year = 1945
 
 		folder = {
@@ -755,6 +759,10 @@ technologies = {
 	rocket_artillery6 = {
 
 		research_cost = 1
+
+		enable_equipments = {
+			rocket_artillery_equipment_3
+		}
 
 		start_year = 1945
 
@@ -1173,6 +1181,10 @@ technologies = {
 	antiair7 = {
 
 		research_cost = 1
+
+		enable_equipments = {
+			anti_air_equipment_4
+		}
 
 		start_year = 1945
 
@@ -1755,6 +1767,10 @@ technologies = {
 	}
 
 	antitank7 = {
+
+		enable_equipments = {
+			anti_tank_equipment_3
+		}
 
 		research_cost = 1
 
