@@ -76,13 +76,13 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_rocket_artillery6_medium"
-		texturefile = "gfx/interface/technologies/rocket_artillery6.png"
+		name = "GFX_rocket_artillery5_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery5.png"
 	}
 
 	SpriteType = {
-		name = "GFX_rocket_artillery7_medium"
-		texturefile = "gfx/interface/technologies/rocket_artillery7.png"
+		name = "GFX_rocket_artillery6_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery6.png"
 	}
 
 	SpriteType = {
