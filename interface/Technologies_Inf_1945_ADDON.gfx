@@ -121,9 +121,19 @@ spriteTypes = {
 		name = "GFX_railway_gun_2_medium"
 		texturefile = "gfx/interface/technologies/generic_railway_gun2.png"
 	}
+
+	SpriteType = {
+		name = "GFX_railway_gun_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/generic_railway_gun2.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_railway_gun_3_medium"
+		texturefile = "gfx/interface/technologies/generic_railway_gun3.png"
+	}
+
+	SpriteType = {
+		name = "GFX_railway_gun_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/generic_railway_gun3.png"
 	}
 	
@@ -269,6 +279,66 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_USA_railway_gun_3_medium"
+		texturefile = "gfx/interface/technologies/USA_railway_gun3.png"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_railway_gun_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/GER_railway_gun2.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_railway_gun_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/GER_railway_gun3.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ENG_railway_gun_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/ENG_railway_gun2.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ENG_railway_gun_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/ENG_railway_gun3.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_railway_gun_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_railway_gun2.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_railway_gun_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/FRA_railway_gun3.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_railway_gun_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/JAP_railway_gun2.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_railway_gun_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/JAP_railway_gun3.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_railway_gun_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_railway_gun2.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_railway_gun_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_railway_gun3.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_railway_gun_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/USA_railway_gun2.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_railway_gun_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/USA_railway_gun3.png"
 	}
 	
